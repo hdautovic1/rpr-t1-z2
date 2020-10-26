@@ -7,6 +7,12 @@ public class Main {
         System.out.println("Unesite proizvoljan broj: ");
         int n = ulaz.nextInt();
 
+        for(int i=0;i<n;i++){
+
+    if(i%sumaCifara(i)==0) System.out.println(i);
+        }
+
+
     }
     public static int sumaCifara(int n) {
         int suma=0;
